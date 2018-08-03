@@ -18,6 +18,7 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 2.5;
+  word-spacing: 0.05em;
 }
 
 h1, h2 {
