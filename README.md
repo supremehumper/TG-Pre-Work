@@ -33,6 +33,7 @@ p {
   text-align: left;
   width: 100%;
   font-family: Helvetica;
+  font-size: 18px;
 }
 
 .byline {
