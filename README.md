@@ -30,11 +30,12 @@ body {
 }
 
 #banner .content h1 {
+  border: solid 3px white;
   position: relative;
   top: 50px;
   width: 400px;
   margin: 0 auto;
-  border: solid 3px white;
+  border-radius: 15px;
 }
 
 #main {
@@ -51,11 +52,13 @@ h1 {
 }
 
 h2 {
+  border: dotted red;
   color: red;
   font-size: 14px;
   line-height: 48px;
   text-align: center;
-  border: dotted red 1px;
+  border: 1px dotted red;
+  border-radius: 15px;
 }
 
 h3 {
