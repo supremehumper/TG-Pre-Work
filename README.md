@@ -15,48 +15,57 @@
   </ul>
 
   <div class="search">Search the table</div>
-
+  
   <table>
     <thead>
-      <tr>
-        <th>Company Name</th>
-        <th>Number of Items to Ship</th>
-        <th>Next Action</th>
-      </tr>
+    <tr>
+      <th>Company Name</th>
+      <th>Number of Items to Ship</th>
+      <th>Next Action</th>
+    </tr>
     </thead>
     <tbody>
-      <tr>
-        <th>Adam's Greenworks</th>
-        <td>14</td>
-        <td>Package Items</td>
-      </tr>
-      <tr>
-        <th>Davie's Burgers</th>
-        <td>2</td>
-        <td>Send Invoice</td>
-      </tr>
-      <tr>
-        <th>Baker's Bike Shop</th>
-        <td>3</td>
-        <td>Send Invoice</td>
-      </tr>
-      <tr>
-        <th>Miss Sally's Southern</th>
-        <td>4</td>
-        <td>Ship</td>
-      </tr>
-      <tr>
-        <th>Summit Resort Rentals</th>
-        <td>4</td>
-        <td>Ship</td>
-      </tr>
-      <tr>
-        <th>Strike Fitness</th>
-        <td>1</td>
-        <td>Enter Order</td>
-      </tr>
-      </tbody>
+    <tr>
+      <td colspan="2">Adam's Greenworks</td>
+      <td>14</td>
+      <td rowspan="2">Package Items</td>
+    </tr>
+    <tr>
+      <td>Davie's Burgers</td>
+      <td>2</td>
+      <td>Send Invoice</td>
+    </tr>
+    <tr>
+      <td>Baker's Bike Shop</td>
+      <td>3</td>
+      <td>Send Invoice</td>
+    </tr>
+    <tr>
+      <td>Miss Sally's Southern</td>
+      <td>4</td>
+      <td>Ship</td>
+    </tr>
+    <tr>
+      <td>Summit Resort Rentals</td>
+      <td>4</td>
+      <td>Ship</td>
+    </tr>
+    <tr>
+      <td>Strike Fitness</td>
+      <td>1</td>
+      <td>Enter Order</td>
+    </tr>
+    </tbody>
   </table>
+  <tfoot>
+    <tr>
+      <td>Total</td>
+    </tr>
+    <tr>
+      <td>28</td>
+    </tr>
+  </tfoot>
+
 
 </body>
 </html>
