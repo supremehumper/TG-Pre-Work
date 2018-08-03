@@ -3,11 +3,6 @@
 
 <head>
   <title>Vacation World</title>
-  <style>
-    p {
-      font-family: Arial;
-    }
-  </style>
 </head>
 
 <body>
@@ -63,3 +58,10 @@
 </body>
 
 </html>
+
+
+
+
+p {
+      font-family: Arial;
+    }
