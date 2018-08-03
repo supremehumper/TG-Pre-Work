@@ -34,6 +34,7 @@ p {
   width: 100%;
   font-family: Helvetica;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .byline {
