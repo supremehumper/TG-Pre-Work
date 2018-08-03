@@ -13,6 +13,7 @@ h1 {
   color: white;
   font-size: 28px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
