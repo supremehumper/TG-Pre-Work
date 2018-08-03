@@ -60,6 +60,7 @@ p {
   width: 60%;
   background-color: white;
   color: black;
+  opacity: 0.75;
 }
 
 .content {
