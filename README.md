@@ -12,6 +12,7 @@ body {
 h1 {
   color: white;
   font-size: 28px;
+  text-transform: uppercase;
 }
 
 h2 {
