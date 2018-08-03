@@ -29,3 +29,7 @@ h2.destination {
 .publish-time {
   color: gray;
 }
+
+.description h5 {
+  color: teal;
+}
