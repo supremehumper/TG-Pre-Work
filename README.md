@@ -109,6 +109,7 @@ a.home {
 .font-card .creator {
   font-size: 20px;
   line-height: 1.25;
+  font-style: italic;
 }
 
 .sample {
