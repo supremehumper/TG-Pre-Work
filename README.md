@@ -32,6 +32,7 @@ p {
   line-height: 1.3em;
   text-align: left;
   width: 100%;
+  font-family: Helvetica;
 }
 
 .byline {
@@ -73,4 +74,8 @@ p {
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   float: left;
   width: 50px;
+}
+
+h1, h2 {
+  font-family: Georgia;
 }
