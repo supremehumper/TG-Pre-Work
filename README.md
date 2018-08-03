@@ -15,7 +15,6 @@
   </div>
   <div id="habitat">
     <h2>Habitat</h2>
-    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg"/>
     <h3>Countries with Large Brown Bear Populations</h3>
     <ol>
       <li>Russia</li>
@@ -27,5 +26,6 @@
   </div>
   <div id="media">
     <h2>Media</h2>
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="a picture of a brown bear" />
   </div>
 </body>
