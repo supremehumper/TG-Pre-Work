@@ -91,6 +91,7 @@ a.home {
   padding: 10px;
   color: #ffffff;
   font-weight: bold;
+  line-height: 1.4em;
 }
 
 /* Editorial Sections */
