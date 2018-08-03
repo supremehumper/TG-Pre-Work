@@ -58,6 +58,8 @@ p {
   position: relative;
   top: 80%;
   width: 60%;
+  background-color: white;
+  color: black;
 }
 
 .content {
