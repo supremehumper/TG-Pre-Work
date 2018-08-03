@@ -20,12 +20,17 @@ h2 {
   line-height: 2.5;
 }
 
+h1, h2 {
+  font-family: Georgia;
+}
+
 a {
   text-decoration: none;
 }
 
 p {
   margin: 16px 0;
+  font-family: Helvetica;
 }
 
 strong {
