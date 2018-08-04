@@ -1,4 +1,8 @@
 /* Universal Styles */
+@font-face {
+  font-family: 'Glegoo';
+  src: url(../fonts/Glegoo-Regular.ttf)format('truetype');
+}
 /* latin */
 @font-face {
   font-family: 'Space Mono';
@@ -107,6 +111,8 @@ a.home {
   color: #ffffff;
   font-weight: bold;
   line-height: 1.4em;
+  font-family: Glegoo;
+  font-size: 20px;
 }
 
 /* Editorial Sections */
