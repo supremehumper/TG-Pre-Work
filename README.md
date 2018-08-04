@@ -5,6 +5,7 @@ header, footer {
 }
 
 main {
+  height: 1600px;
   display: grid;
   grid-template-columns: 250px 250px;
   grid-template-rows: repeat(3, 450px);
@@ -14,6 +15,7 @@ main {
   justify-items: center;
   justify-content: center;
   align-items: stretch;
+  align-content: center;
 }
 
 h2 {
