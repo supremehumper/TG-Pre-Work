@@ -1,12 +1,2 @@
-let molecule = 16;
-let particle = 18;
-let assay = 3;
-
-// Add and assign to molecule below
-molecule += molecule;
-
-// Multiply and assign to particle below
-particle *= 6.02;
-
-// Increment assay by 1
-assay++;
+var favoriteAnimal = 'elephant';
+console.log('My favorite animal is ' + favoriteAnimal);
