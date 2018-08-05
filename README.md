@@ -1,11 +1,7 @@
-const satellite = 'The Moon';
-const galaxy = 'The Milky Way';
-let stars = 'North Star';
-
-const myNightSky = (satellite, galaxy, stars) => {
-  stars = 'Sirius';
-  return 'Night sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+const visibleLightWaves = () => {
+  let lightWaves = 'Moonlight';
+  console.log(lightWaves);
 }
 
-console.log(myNightSky());
-console.log(stars);
+visibleLightWaves();
+console.log(lightWaves);
