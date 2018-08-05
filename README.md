@@ -1,5 +1,8 @@
-const takeOrder = (topping) => {
-  console.log(`Order: pizza topped with ${topping}`);
+const takeOrder = (topping, crustType) => {
+  console.log('Order: ' + crustType + ' crust pizza topped with ' + topping);
 };
 
-takeOrder('cheese');
+takeOrder();
+takeOrder('cheese', 'thin');
+takeOrder('pepperoni', 'thick');
+takeOrder('onions', 'new york style');
