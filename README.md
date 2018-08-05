@@ -1,7 +1,10 @@
-let cookies = ['chocolate chip', 'raisin', 'macadamia nut', 'sugar'];
+let vacationSpots = ['Hawaii', 'Japan', 'China'];
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
 
-for (let i = 0; i<cookies.length; i++) {
-  console.log('I would love to eat a ' + cookies[i] + ' cookie right now!');
-}
 
-/* its going to print to the console for every item in the array.*/
+//got ahead of myself, lol.
+/*for (i=0; i<vacationSpots.length; i++) {
+  console.log(vacationSpots[i]);
+}*/
