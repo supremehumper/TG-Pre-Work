@@ -7,3 +7,6 @@ console.log(newYearsResolutions[3]);
 
 newYearsResolutions[1] = 'Learn a new language';
 console.log(newYearsResolutions.length);
+newYearsResolutions.push('help', 33);
+console.log(newYearsResolutions);
+newYearsResolutions.pop();
