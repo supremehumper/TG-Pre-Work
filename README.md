@@ -1,8 +1,10 @@
-let cards = ['Diamond', 'Spade', 'Heart', 'Club'];
-let currentCard = 'Spade';
+let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
 
-while (currentCard != 'Spade') {
-  console.log(currentCard);
-  currentCard = cards[Math.floor(Math.random() * 4)];
+let fridge = [];
+
+while (fridge.length < groceryList.length) {
+  for (let i = 0; i < groceryList.length; i++) {
+    fridge.push(groceryList[i]);
+  }
 }
-console.log(currentCard);
+console.log(fridge);
