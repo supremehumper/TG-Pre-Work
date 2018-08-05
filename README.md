@@ -1,8 +1,11 @@
-let vacationSpots = ['Hawaii', 'Japan', 'China'];
-//console.log(vacationSpots[0]);
-//console.log(vacationSpots[1]);
-//console.log(vacationSpots[2]);
+let myPlaces = ['a', 'b', 'c'];
+let friendPlaces = ['a', 'e', 'f'];
 
-for (let vacationSpotIndex = vacationSpots.length-1; vacationSpotIndex>=0; vacationSpotIndex--) {
-  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
+  
+  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+    if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+      console.log('Match: ' + myPlaces[myPlacesIndex]);
+    }
+  }
 }
