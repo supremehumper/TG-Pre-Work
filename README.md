@@ -1,7 +1,14 @@
-let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
 
-groceryList.shift();
-console.log(groceryList);
-groceryList.unshift('popcorn');
-console.log(groceryList);
-console.log(groceryList.slice(1, 3+1));
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments.push('adobo');
+console.log(condiments);
+
+condiments = ['damn i lost everything!!!'];
+console.log(condiments);
+
+utensils.pop();
+console.log(utensils);
+
+utensils = ['cant blame me for trying...'];
