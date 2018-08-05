@@ -1,6 +1,6 @@
-let hungerLevel = 5;
-if (hungerLevel > 7) {
-  console.log('Time to eat!');
+let moonPhase = 'full';
+if (moonPhase) {
+  console.log('Howl!');
 } else {
-  console.log('We can eat later!');
+  console.log('I swear im not a warewolf.');
 }
