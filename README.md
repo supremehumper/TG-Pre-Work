@@ -1,10 +1,8 @@
 let vacationSpots = ['Hawaii', 'Japan', 'China'];
-console.log(vacationSpots[0]);
-console.log(vacationSpots[1]);
-console.log(vacationSpots[2]);
+//console.log(vacationSpots[0]);
+//console.log(vacationSpots[1]);
+//console.log(vacationSpots[2]);
 
-
-//got ahead of myself, lol.
-/*for (i=0; i<vacationSpots.length; i++) {
-  console.log(vacationSpots[i]);
-}*/
+for (let vacationSpotIndex=0; vacationSpotIndex<vacationSpots.length; vacationSpotIndex++) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
