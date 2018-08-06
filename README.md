@@ -20,4 +20,11 @@ console.log(person['name']);
 console.log(person['age']);
 console.log(alarm);
 console.log(person[alarm]);
+person.hobbies.pop();
+
 console.log(person.hobbies);
+
+
+
+
+
