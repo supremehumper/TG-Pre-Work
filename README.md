@@ -12,9 +12,12 @@ if (day === 'Saturday' || day === 'Sunday') {
   alarm = 'weekendAlarm';
 } else {
   alarm = 'weekAlarm';
-};
+}
+
+person.hobbies = ['Learning to code', 'Coding to learn'];
 
 console.log(person['name']);
 console.log(person['age']);
 console.log(alarm);
 console.log(person[alarm]);
+console.log(person.hobbies);
