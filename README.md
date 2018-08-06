@@ -1,10 +1,17 @@
-"use strict";
+About to write to /home/ccuser/workspace/learn-javascript-transpilation-bct-
+npm-init/package.json:
 
-var pasta = "Spaghetti"; // ES5 syntax
+{
+  "name": "learning-babel",
+  "version": "1.0.0",
+  "description": "Use Babel to transpile JavaScript ES6 to ES5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
 
-var meat = "Pancetta"; // ES6 syntax
 
-var sauce = "Eggs and cheese"; // ES6 syntax
-
-// Template literals, like the one below, were introduced in ES6
-var carbonara = "You can make carbonara with " + pasta + ", " + meat + ", and a sauce made with " + sauce + ".";
+Is this ok? (yes)
