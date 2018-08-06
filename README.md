@@ -4,10 +4,12 @@ let person = {
   
   set age(age) {
     if (typeof age === 'number') {
-      this._age = this.age;
+      this._age = age;
     } else {
       return 'Invalid input';
     }
   }
-};
+}
 
+person.age = 'Thirty-nine';
+person.age = 39;
