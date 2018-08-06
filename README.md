@@ -1,17 +1,17 @@
-About to write to /home/ccuser/workspace/learn-javascript-transpilation-bct-
-npm-init/package.json:
+.24.1
+  | `-- babel-plugin-syntax-exponentiation-operator@6.
+13.0
+  +-- babel-plugin-transform-regenerator@6.26.0
+  | `-- regenerator-transform@0.10.1
+  +-- browserslist@3.2.8
+  | +-- caniuse-lite@1.0.30000874
+  | `-- electron-to-chromium@1.3.55
+  `-- semver@5.5.0
 
-{
-  "name": "learning-babel",
-  "version": "1.0.0",
-  "description": "Use Babel to transpile JavaScript ES6 to ES5",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
-}
-
-
-Is this ok? (yes)
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fseven
+ts@^1.0.0 (node_modules/chokidar/node_modules/fsevents
+):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsuppor
+ted platform for fsevents@1.2.4: wanted {"os":"darwin"
+,"arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN learning-babel@1.0.0 No repository field.
