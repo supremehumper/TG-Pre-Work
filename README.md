@@ -3,6 +3,7 @@ let person = {
   age: 40,
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM',
+  sayHello: () => {return 'Hello, there!'},
 }
 
 let day = 'Sunday';
@@ -23,6 +24,7 @@ console.log(person[alarm]);
 person.hobbies.pop();
 
 console.log(person.hobbies);
+console.log(person.sayHello());
 
 
 
