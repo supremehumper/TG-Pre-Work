@@ -8,8 +8,13 @@ let person = {
     } else {
       return 'Invalid input';
     }
+  },
+  
+  get age() {
+    console.log('${this.name} is ${this.age} years old.');
   }
 }
 
 person.age = 'Thirty-nine';
 person.age = 39;
+console.log(person.age);
