@@ -1,25 +1,36 @@
-import {availableAirplanes as aircrafts, flightRequirements as flightReqs, meetsStaffRequirements as meetsStaffReqs, meetsSpeedRangeRequirements as meetsSpeedRangeReqs} from './airplane';
 
-function displayFuelCapacity() {
- aircrafts.forEach(function(element){
-   console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);
- });
- 
+export let availableAirplanes = [
+  {name: 'AeroJet', fuelCapacity: 800, availableStaff: ['pilots', 'flightAttendants', 'engineers', 'medicalAssistance', 'sensorOperators',], maxSpeed: 1200, minSpeed: 300,
+  }, 
+  {name: 'SkyJet', fuelCapacity: 500, availableStaff: ['pilots', 'flightAttendants',], maxSpeed: 800, minSpeed: 200,
+  }
+];
+
+export let flightRequirements = {
+  requiredStaff: 4,
+  requiredSpeedRange: 700,
+};
+
+export function meetsStaffRequirements(availableStaff, requiredStaff) {
+  if (availableStaff.length >= requiredStaff) {
+    return true;
+  } else {
+    return false;
+  }
 }
-displayFuelCapacity();
 
-function displayStaffStatus(){
-  aircrafts.forEach(function(element) {
-    console.log(element.name + ' meets staff requirements: ' + meetsStaffReqs(element.availableStaff, flightReqs.requiredStaff) );
-  });
+function meetsSpeedRangeRequirements(maxSpeed, minSpeed, requiredSpeedRange) {
+  let range = maxSpeed - minSpeed;
+  if (range > requiredSpeedRange) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
-function displaySpeedRangeStatus() {
-  aircrafts.forEach(function(element) {
-    console.log(element.name + ' meets speed range requirements: ' + meetsSpeedRangeReqs(element.maxSpeed, element.minSpeed, flightReqs.requiredSpeedRange));
-  });
-}
+export {availableAirplanes as aircrafts, flightRequirements as flightReqs, meetsStaffRequirements as meetsStaffReqs, meetsSpeedRangeRequirements as meetsSpeedRangeReqs};
 
-displayStaffStatus();
-displaySpeedRangeStatus();
+export default meetsSpeedRangeRequirements;
+
+
 
